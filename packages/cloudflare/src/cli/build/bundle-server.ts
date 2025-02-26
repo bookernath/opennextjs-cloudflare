@@ -130,8 +130,7 @@ export async function bundleServer(buildOpts: BuildOptions): Promise<void> {
       __non_webpack_require__: "require",
       // Ask mhart if he can explain why the `define`s below are necessary
       "process.env.NEXT_RUNTIME": '"nodejs"',
-      "process.env.NODE_ENV": '"production"',
-      "process.env.NEXT_MINIMAL": "true",
+      "process.env.NODE_ENV": '"production"'
     },
     platform: "node",
     banner: {
